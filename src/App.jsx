@@ -55,7 +55,7 @@ function App() {
 
           <div className='container'>
         <Routes>
-        <Route path="/About US" element={<About/>} />
+        <Route path="/About US" element={<About mode={mode} changeMode={changeMode}/>} />
         <Route path="/" element={<Textarea heading="Fastest online tool to manipulate your text for FREE!" mode={mode} changeAlert={changeAlert} />} />
 
           {/* <Route path="/">
