@@ -1,7 +1,7 @@
 import React from 'react'
 import About from './About'
 import { Link } from 'react-router-dom'
-
+import "bootstrap/js/src/collapse.js";
 export default function Navbar(props) {
   return (
     <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
