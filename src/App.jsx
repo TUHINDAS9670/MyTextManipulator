@@ -5,6 +5,7 @@ import About from './Components/About';
 import Navbar from './Components/Navbar';
 import Textarea from './Components/Textarea';
 import SuccessAlerts from './Components/SuccessAlerts';
+// import Footer from './Components/Footer';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,6 +13,8 @@ import {
   Routes,
   Link
 } from "react-router-dom";
+import Footer from './Components/Footer';
+import Footer1 from './Components/Footer';
 
 function App() {
 
@@ -66,6 +69,8 @@ function App() {
           {/* </Route> */}
         </Routes>
           </div>
+          {/* <Footer></Footer> */}
+          <Footer1></Footer1>
       </Router>
     </>
   )

@@ -42,6 +42,14 @@ export default function Navbar(props) {
   <input className="form-check-input" type="checkbox" role="button" id="flexSwitchCheckDefault" onClick={props.changeMode }/>
   <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Dark Mode</label>
 </div>
+{/* -------------------------------------------------------------------------------------------------------------------------  */}
+{/* --------------------------------------we have a button for toggling dark and light mode and we have aboutus and home components in navbar but we cannot render those in webpage becz we use tailwind css for creating footer components ,
+so that is why our exixting bootstrap component's class names are clashed with tailwind.
+we need to fix it later on but if we renove tailwind specification form index.css then we can render those thing but we also need to remove footer component as well "></div>
+-----------------------------------------------------------------------------------  */}
+{/* -------------------------------------------------------------------------------------------------------------------------  */}
+{/* -------------------------------------------------------------------------------------------------------------------------  */}
+
 
       </div>
     </div>
